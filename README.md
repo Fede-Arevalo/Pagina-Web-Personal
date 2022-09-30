@@ -1,6 +1,6 @@
 # Mi página web personal 🌐
 
-Sitio realizado para prácticar flexbox.
+Sitio realizado para practicar flexbox.
 
 ## Tecnologías que he utilizado 🛠️
 
