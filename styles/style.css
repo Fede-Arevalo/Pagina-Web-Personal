@@ -84,8 +84,6 @@ nav > a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /* border: 1px solid #4bff1e; */
 }
 
 .container .wrap h1 {
@@ -103,13 +101,11 @@ nav > a:hover {
   max-width: 500px;
   height: auto;
   text-align: left;
-
-  /* border: 1px solid #4bff1e; */
 }
 
 /* Column FlexBox */
 
-.container .wrap .image {
+.container .wrap .image-bio {
   flex: 1;
   background-image: url(../assets/biography/Persona1.png);
   background-repeat: no-repeat;
@@ -118,8 +114,6 @@ nav > a:hover {
   align-self: center;
   max-width: 500px;
   height: 590px;
-
-  /* border: 1px solid #4bff1e; */
 }
 
 /* Footer ------------------------------*/
@@ -153,6 +147,47 @@ footer .social a {
   display: flex;
 }
 
+/* Portfolio */
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 70%;
+  max-width: 900px;
+  height: 90%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: var(--primary-color);
+  margin: 10px;
+  width: 250px;
+  padding: 0 15px 15px 15px;
+  border-radius: 5px;
+  box-shadow: 12px 10px 5px -4px rgba(0, 0, 0, 0.32);
+  -webkit-box-shadow: 12px 10px 5px -4px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 12px 10px 5px -4px rgba(0, 0, 0, 0.32);
+}
+
+.card img {
+  width: 250px;
+}
+
+.card img:hover {
+  transform: scale(1.5);
+}
+
+.card video {
+  width: 250px;
+  height: 160px;
+}
+
+.card audio {
+  width: 250px;
+}
+
 /* ----------------------------------------------------------------------------- */
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -161,23 +196,18 @@ footer .social a {
   }
 
   nav > a {
-    padding: 6px;
-    font-size: 15px;
+    padding: 5px;
+    font-size: 14px;
   }
 
   .container .wrap {
     flex-direction: column;
     justify-content: center;
-
-    border: 1px solid #4bff1e;
   }
 
   .container .wrap h1 {
     font-size: 55px;
-    font-weight: 100;   
-    
-    border: 1px solid #4bff1e;
-    
+    font-weight: 100;
   }
 
   /* Column FlexBox */
@@ -188,17 +218,13 @@ footer .social a {
     width: 250px;
     text-align: center;
     align-items: center;
-
-    border: 1px solid #4bff1e;
   }
 
   /* Column FlexBox */
 
-  .container .wrap .image {
+  .container .wrap .image-bio {
     width: 300px;
     height: auto;
-
-    border: 1px solid #4bff1e;
   }
 
   footer {
@@ -212,5 +238,51 @@ footer .social a {
   footer .social {
     height: 30px;
     margin: 0 10px 0 10px;
+  }
+
+  /* Portfolio */
+
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 900px;
+    height: 90%;
+    margin: 0 auto;
+  }
+
+  .card {
+    background-color: var(--primary-color);
+    margin-top: 10px;
+    width: 150px;
+    padding: 0 5px 5px 5px;
+    border-radius: 5px;
+    box-shadow: 12px 10px 5px -4px rgba(0, 0, 0, 0.32);
+    -webkit-box-shadow: 12px 10px 5px -4px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 12px 10px 5px -4px rgba(0, 0, 0, 0.32);
+  }
+
+  .card img {
+    width: 150px;
+  }
+
+  .card img:hover {
+    transform: scale(1.5);
+  }
+
+  .card video {
+    width: 150px;
+    height: 80px;
+  }
+
+  .card audio {
+    width: 150px;
+  }
+
+  .card h3 {
+    text-align: center;
+    margin: 5px;
   }
 }
