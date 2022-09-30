@@ -16,7 +16,7 @@ Proyecto realizado con HTML y CSS (flexbox)
 ![image](https://user-images.githubusercontent.com/105200893/193162522-5094470a-7505-491a-8dc1-1f288b233918.png)
 
 ### Preview Contacto 📷
-![image](https://user-images.githubusercontent.com/105200893/193167151-9784d763-7fd4-4004-bf65-d09caa1105d9.png)
+![image](https://user-images.githubusercontent.com/105200893/193167435-48f30a31-4186-4de6-b003-f6c387113678.png)
 
 ---
 Hecho por [Federico Arévalo](https://github.com/Fede-Arevalo) 😎
